@@ -26,7 +26,7 @@ function displayQuote(quote) {
 
   const p = document.createElement('p');
   p.textContent = `- ${quote.author}`;
-//Like Button and copy button
+//Like Button nd copy button
   const likeButton = document.createElement('span');
   likeButton.innerHTML = '&hearts;';
   likeButton.classList.add('like-heart');
