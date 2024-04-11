@@ -2,7 +2,6 @@ const quoteContainer = document.getElementById('quoteContainer');
 const newQuoteBtn = document.getElementById('newQuoteBtn');
 const searchForm = document.getElementById('searchForm');
 const searchInput = document.getElementById('searchInput');
-const addQuoteForm = document.getElementById('addQuoteForm');
 
 // Function to generate a random quote from the Quotable API
 async function generateRandomQuote() {
